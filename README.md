@@ -50,29 +50,23 @@ Tests are located in the `tests/` directory.
 
 ## Project Structure
 cli_manager/
-│
-├── main.py # CLI entry point
-│
-├── models/
-│ ├── user.py # User class
-│ ├── project.py # Project class
-│ └── task.py # Task class
-│
-├── utils/
-│ └── storage.py # JSON load/save helpers
-│
-├── data/
-│ ├── users.json # Auto-generated
-│ ├── projects.json
-│ └── tasks.json
-│
-├── tests/
-│ ├── test_users.py
-│ ├── test_projects.py
-│ ├── test_tasks.py
-│ └── test_cli.py
-│
-└── README.md
+- main.py # CLI entry point
+-models/
+  - user.py # User class
+  - project.py # Project class
+  - task.py # Task class
+utils/
+  - storage.py # JSON load/save helpers
+data/
+  - users.json # Auto-generated
+  -  projects.json
+  - tasks.json
+tests/
+  - test_users.py
+  - test_projects.py
+  - test_tasks.py
+  - test_cli.py
+-README.md
 
 This organization separates concerns cleanly and improves maintainability.
 
